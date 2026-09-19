@@ -1,0 +1,5 @@
+streamlit
+google-genai
+huggingface-hub
+Pillow
+requests
