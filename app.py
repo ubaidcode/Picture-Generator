@@ -9,7 +9,7 @@ from io import BytesIO
 # ============================================================
 
 # 1. GEMINI API KEY
-GEMINI_API_KEY = ""
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 
 
 # 2. GEMINI MODEL
@@ -17,7 +17,7 @@ GEMINI_MODEL = "gemini-3.5-flash"
 
 
 # 3. HUGGING FACE TOKEN
-HF_TOKEN = ""
+HF_TOKEN = st.secrets["HF_TOKEN"]
 
 
 # 4. HUGGING FACE IMAGE MODEL
